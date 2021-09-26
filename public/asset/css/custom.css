@@ -1,0 +1,377 @@
+/*=============Default======================*/
+.vSidebar{
+    background: #1e5c6f !important;
+}
+.vSidebar .sidebar{
+    padding: 0 !important;
+
+}
+.vSidebar .brand-link{
+    padding: .8125rem 0 !important;
+}
+.vSidebar i,.vSidebar i:before,.main-header i,.main-header i:before {
+    color: #fff;
+}
+.main-header{
+    background: #1e5c6f;
+}
+.main-header .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: capitalize;
+}
+.vSidebar .brand-link,.vSidebar .user-panel {
+    border-bottom: 1px solid #bcbebf;
+}
+.vSidebar{
+    background: #1e5c6f !important;
+}
+.vSidebar .nav-link.active {
+    background-color: #157db9 !important;
+}
+
+.vBadge .badge {
+    width: 100%;
+    /*max-width: 150px;*/
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+
+.vReceiveCashAmount .badge {
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 5px;
+    /*background: #075871;*/
+    padding: 10px 25px;
+
+}
+
+
+.vOrderStatus .badge {
+    width: 100%;
+    max-width: 150px;
+}
+.vOrder .badge-danger {
+    color: #fff;
+    background-color: #dc3545;
+
+}
+.vOrder .badge-success {
+    color: #fff;
+    background-color: #3c8dbc;
+}
+.vOrder .badge-warning {
+    color: #fff;
+    background-color: #007bff;
+}
+.vOrder .badge-info {
+    color: #fff;
+    background-color: #e83e8c;
+}
+.vOrder .badge{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+.vOrder .shadow {
+    border: 1px solid #fff;
+    -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08) !important;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08) !important;
+}
+.vOrder .shadow:hover {
+    background: #efefef;
+    border: 1px solid #efefef;
+    cursor: pointer;
+}
+.vCard {
+    border-top: 8px solid #1e5c6f;
+    border-radius: 5px 5px 2px 2px;
+}
+.vBtn{
+    background-color: #1e5c6f;
+    border-color: #1e5c6f;
+    color: #fff !important;
+}
+.defaultBtn{
+    background-color: #1e5c6f;
+    border-color: #1e5c6f;
+    color: #fff !important;
+}
+.vBBottom{
+    border-bottom: 1px solid #f1eded;
+}
+.vMHeader{
+    background: #05729a !important;
+    border-radius: 0;
+}
+.vMHeader .close,.vDMHeader .card-tools i{
+    color: #fff;
+    opacity: 1;
+}
+.vCardBorder{
+    border: 1px solid #e4ecef;
+    box-shadow:none !important;
+}
+.vPMHeader {
+    background: #014b96;
+    color: #fff;
+    text-transform: uppercase;
+}
+.vDMHeader{
+    background: #0e3761;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+/*form validation*/
+.error {
+    color: red;
+    font-size: 14px;
+    font-weight: 400 !important;
+    float: right;
+}
+
+.form-control.error {
+    border: 1px solid red;
+}
+
+/*form validation end*/
+::-webkit-input-placeholder {
+    font-size: 16px !important;
+}
+
+:-ms-input-placeholder {
+    font-size: 16px !important;
+}
+
+::placeholder {
+    font-size: 16px !important;
+}
+
+.circle-avatar {
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 100%;
+}
+.circle-avatar-preview {
+    max-height: 150px;
+    max-width: 150px;
+    border-radius: 100%;
+}
+
+.nav-treeview a.nav-link.active {
+    background-color: red !important;
+}
+.nav-treeview a.nav-link.active {
+    background-color: #3f87b180 !important;
+    color: #fff !important;
+}
+
+.badge.Pending{
+    background: #dc3545;
+    color: #fff;
+}
+
+.badge.Confirmed{
+    background: #3c8dbc;
+    color: #fff;
+}
+
+.badge.Picked.Up{
+    background: #020101;
+    color: #fff;
+}
+
+.badge.In.Transit{
+    background: #007bff;
+    color: #fff;
+}
+
+.badge.Out.for.Delivery{
+    background: #17a2b8;
+    color: #fff;
+}
+
+.badge.Delivered{
+    background: #001f3f;
+    color: #fff;
+}
+
+.badge.Completed{
+    background: #4c110f;
+    color: #fff;
+}
+
+.badge.Cancelled{
+    background: #FFC107;
+    color: #000;
+}
+
+.Pending{
+
+    color: #dc3545;
+}
+
+.Confirmed{
+
+    color: #3c8dbc;
+}
+
+.Picked.Up{
+
+    color: #020101;
+}
+
+.In.Transit{
+
+    color: #007bff;
+}
+
+.Out.for.Delivery{
+
+    color: #17a2b8;
+}
+
+.Delivered{
+
+    color: #001f3f;
+}
+
+.Cancelled{
+
+    color: #FFC107;
+}
+
+.Completed{
+
+    color: #4c110f;
+}
+
+.dropshipping-ticket-chat{
+    min-height: 420px !important;
+}
+.direct-chat-text{
+    max-width: 520px;
+}
+
+/*/ select 2 custom error msg /*/
+.select2Dropdown {
+    position: relative;
+}
+
+.select2Dropdown label.error {
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+.border {
+    border: 5px solid #1e5c6f !important;
+    border-radius: 10px;
+}
+/*.nav-pills .nav-link.active, .nav-pills .show>.nav-link {*/
+/*    background-color: #1e5c6f;*/
+/*    border-color: #1e5c6f;*/
+/*    color: #fff !important;*/
+/*}*/
+
+.nav-pills .vNavLink.active, .nav-pills .show>.vNavLink {
+    background-color: #1e5c6f;
+    border-color: #1e5c6f;
+    color: #fff !important;
+}
+
+/*======================Notification===============*/
+
+.notificationCount {
+    word-wrap: break-word !important;
+    font-size: 15px;
+}
+
+/*.notificationTime{*/
+/*    float: right;*/
+/*    font-size: 10px;*/
+/*    position: relative;*/
+/*    bottom: -5px !important;*/
+/*    color: white;*/
+/*    right: 15px;*/
+/*}*/
+/*.notificationTime {*/
+/*    font-size: 10px;*/
+/*    color: white;*/
+/*    position: relative;*/
+/*    right: 15px;*/
+/*    bottom: -5px;*/
+/*    float: right;*/
+/*}*/
+.notification .dropdown-footer, .dropdown-header {
+    padding: .25rem 1rem;
+    background: #2e6082;
+    color: #fff;
+}
+
+a.dropdown-item .notificationTime {
+    color: #333;
+}
+
+.dropdown-item.bg-info .notificationTime{
+    color: #fff;
+
+}
+
+.notificationTime {
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+p.notificationCount {
+    margin: 0;
+    white-space: normal;
+    height: 50px;
+    position: relative;
+    text-align: justify;
+}
+
+
+.img-flag {
+    height: 30px;
+    width: 40px;
+}
+
+/*For login Page*/
+
+.envelopIcon{
+    position: absolute;
+    right: 18px;
+    top: 13px;
+}
+
+.passwordIconEye {
+    position: absolute;
+    right: 18px;
+    top: 13px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.vOrderBlock {
+    background: #f9f9f9;
+    border: 1px solid #eaf3f7;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
+}
+
+.vOrderBlock:hover {
+    background: #fff;
+}
+
+/*Sidebar app wallet*/
+#appWalletBalanceSidebar{
+    display: none;
+}
+/*Sidebar app wallet*/
